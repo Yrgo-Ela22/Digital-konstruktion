@@ -8,3 +8,6 @@ Filen "or_gate_tb.vhd" utgör en testbänk för simulering av OR-grinden.
 
 Filen "or_gate.qar" utgör en Quartus arkivfil som kan användas för att direkt öppna
 projektet med satta pinnar, implementerad testbänk med mera.
+
+Filen "Lösningsförslag övningsuppgifter 2023-03-23.pdf" utgör lösningsförslag för de övningsuppgifter
+som gavs i samband med föregående lektion.
