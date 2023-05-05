@@ -47,7 +47,7 @@ begin
     --              i first is converted to a 4-bit unsigned integer, then to a
     --              std_logic_vector, i.e. bits. These four bits are then
     --              assigned to signals abcd. Every combination is held for 10 ns.
-    --              After all simulations have been tested, the process is halted
+    --              After all combinations have been tested, the process is halted
     --              via the wait command to stop the simulation. 
     --------------------------------------------------------------------------------
     SIM_PROCESS: process is
