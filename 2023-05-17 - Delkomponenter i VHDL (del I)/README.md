@@ -49,7 +49,7 @@ constant DISPLAY_OFF: std_logic_vector(6 downto 0) := "1111111";
 
 I nästa del ska en till delkomponent implementeras för att skriva ut inmatat tal på två displayer med valbar talbas mellan 2 - 16. Det inmatade talet ska kontrolleras
 där alla tal större än vad som kan skrivas ut på två displayer (talbasen ^ 2 - 1) ska ignoreras. Använd talbas ska kunna väljas valfritt via parametern RADIX, där
-default är talbas 16. Tiotalet och entalet ur aktuellt tal x ska beräknas utefter aktuell talbas. Efter att ha tagit redo på tiotalet ska entalet beräknas via formeln x
+default är talbas 16. Tiotalet och entalet ur aktuellt tal x ska beräknas utefter aktuell talbas. Efter att ha tagit reda på tiotalet ska entalet beräknas via formeln x
 - talbas * tiotal. Två instanser av delkomponenten display ska användas för att skriva ut motsvarande siffror på respektive 7-segmentsdisplay.
 
 Filen "multi_hex_component.vhd" utgör konstruktionens toppmodul, där de två display-paren för tillfället tilldelas var sitt tal 0x00 - 0xFF utefter inmatat tal.
