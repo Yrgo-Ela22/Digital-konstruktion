@@ -27,8 +27,8 @@ module edge_detection_falling_edge_tb();
     edge_detection_falling_edge simulation(clock, reset_n, button_n, led);
     
     /********************************************************************************
-     * @brief Creates an instance of the top module and connects the ports to
-     *        signals of the same name in this testbench for simulation.
+     * @brief Toggles the source clock every half clock period until the simulation
+	  *        is finished.
      ********************************************************************************/
     initial begin: CLOCK_PROCESS
         while (!sim_finished) begin
