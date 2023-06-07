@@ -9,11 +9,15 @@ button_s3_n utgör "föregående" insignal. Vid nedtryckning (fallande flank) g�
 button_pressed_s2 för att indikera knapptryckning. Vid nedtryckning av tryckknappen togglas en lysdiod.
 
 Filen "falling_edge_detection_metastability_protection_added.qar" utgör konstruktionen från föregående lektion, utökad med metastabilitetsskydd.
-Filen "falling_edge_detection_metastability_protection_added_rtl.pnq" demonstrerar motsvarande grindnät realiserat i CircuitVerse.
+Filen "falling_edge_detection_metastability_protection_added_rtl.png" demonstrerar motsvarande grindnät realiserat i CircuitVerse.
 
 Bifogad katalog "event_detection_metastability" innehåller kretsschema samt hårdvarubeskrivande kod (syntesbar kod samt testbänk) både i VHDL och 
 SystemVerilog för en generisk konstruktion, där 1 - 3 tryckknappar detekteras på fallande flank (nedtryckning) via D-vippor. 
 Vid nedtryckning (föregående insignal är hög, nuvarande insignal är låg) togglas motsvarande lysdiod.
+
+Filen "led_toggle_meta_prev_3_buttons.cv" demonstrerar kretsschemat för ett system, där tre lysdioder togglas vid nedtryckning av var sin tryckknapp
+(eventdetektering på fallande flank), där metastabilitetsskydd används på samtliga insignaler. Denna fil kan öppnas i CircuitVerse.
+Motsvarande grindnät visas i filen "led_toggle_meta_prev_3_buttons.png".
 
 *Tillstånd där utsignalen ur en vippa varken är 0 eller 1, vilket kan uppstå när en insignal ändrar värde för nära en klockpuls. Då hinner signalen
 inte stabilisera sig på 0 eller 1 och vippans utsignal kan då sväva någonstans mellan 0 - 1 en viss tid. Oftast stabiliserar sig sedan vippans utsignal
