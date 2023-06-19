@@ -1,4 +1,4 @@
-# 2023-06-24 - Tillståndsmaskiner (del I)
+# 2023-06-14 - Tillståndsmaskiner (del I)
 Implementering av en enkel tillståndsmaskin, både i hårdvara och VHDL.
 
 Tillståndsmaskinen består av fyra tillstånd:
